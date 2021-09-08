@@ -1,0 +1,37 @@
+* { /*元々ブラウザが持っているCSSをリセットするためのコード*/
+    margin: 0;
+    padding: 0;
+} 
+  
+.box {
+    background-color: red;   /* 背景 */
+    width: 200px;              /* 要素の幅 */
+    height: 200px;             /* 要素の高さ */
+    border:3px solid #000;   /* 枠線 */
+    padding: 30px;             /* 要素の内側に余白 */
+    margin: 30px;              /* 外側に余白 */
+}
+
+.box-txt {
+    font-size: 30px;           /* 文字のサイズ */
+    color: blue;             /* 文字の色 */
+    font-weight: bold;         /* 文字の太さ */
+    text-align: center;        /* 行揃えの位置や，均等割付を指定 */
+}
+
+p {
+  font-size: 40px;
+  color: blue;
+}
+
+li {
+    color: green;
+}
+
+#list_id {
+    color: blue;
+}
+  
+.list_class {
+    color: red;
+}
